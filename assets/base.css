@@ -1,27 +1,37 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200; 1.300;1.400;1.500;1.600;1.700;1.800;1.900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200; 1.300;1.400;1.500;1.600;1.700;1.800;1.900&display=swap");
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins' , sans-serif;
-    background-color: var(--secondary);
-    background-image: url("./image/background-top.png");
-    /* background-position: center; */
-    /* background-repeat: no-repeat; */
-    /* background-size: cover;  */
-    /* height: "664px",
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: 'Poppins' , sans-serif; */
+  /* background-color: var(--secondary); */
+  /* background-image: url("./image/background-top.png"); */
+  /* background-position: center; */
+  /* background-repeat: no-repeat; */
+  /* background-size: cover;  */
+  /* height: "664px",
     width: "100%", */
-    
+}
+html {
+  font-size: 62.5%;
+  line-height: 1.6rem;
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+  font-style: normal;
+  line-height: normal;
 }
 :root {
-    --primary: #644DAF;
-    --secondary: #AF99F4;
-    --purple: #E7E3FF;
-    --lightPurple: #E6E6FA;
-    --pink: #EF9C98;
-    --white: #FFFFFF;
-    --gray: #D8D8D8;
-    --gray2: #EBEBEB;
-    --gray3: #F4F4F4;
+  --primary: #644daf;
+  --secondary: #af99f4;
+  --purple: #e7e3ff;
+  --lightPurple: #e6e6fa;
+  --pink: #ef9c98;
+  --white: #ffffff;
+  --gray: #f4f4f4;
+  --gray2: #ebebeb;
+  --gray3: #d8d8d8;
+  --desc: #f5b6b4;
+  --map: #ff1d1d;
+  --line: #c6bce7;
 }
