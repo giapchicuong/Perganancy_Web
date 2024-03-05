@@ -8,7 +8,7 @@
     background-color: var(--secondary);
     background-image: url("./image/background-top.png");
     /* background-position: center; */
-    /* background-repeat: no-repeat; */
+    background-repeat: no-repeat;
     /* background-size: cover;  */
     /* height: "664px",
     width: "100%", */

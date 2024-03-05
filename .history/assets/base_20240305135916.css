@@ -6,10 +6,10 @@
     box-sizing: border-box;
     font-family: 'Poppins' , sans-serif;
     background-color: var(--secondary);
-    background-image: url("./image/background-top.png");
-    /* background-position: center; */
-    /* background-repeat: no-repeat; */
-    /* background-size: cover;  */
+    backgroundImage: url("./image/background-top.png");
+    backgroundPosition: "center";
+    backgroundRepeat: "no-repeat";
+    backgroundSize: "cover";
     /* height: "664px",
     width: "100%", */
     

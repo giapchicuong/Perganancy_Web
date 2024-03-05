@@ -5,18 +5,11 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins' , sans-serif;
-    background-color: var(--secondary);
-    background-image: url("./image/background-top.png");
-    /* background-position: center; */
-    /* background-repeat: no-repeat; */
-    /* background-size: cover;  */
-    /* height: "664px",
-    width: "100%", */
-    
+    background-color: #B2A8D2;
 }
 :root {
     --primary: #644DAF;
-    --secondary: #AF99F4;
+    --secondary: #B2A8D2;
     --purple: #E7E3FF;
     --lightPurple: #E6E6FA;
     --pink: #EF9C98;
