@@ -1,0 +1,20 @@
+@import url();
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family:  */
+}
+:root {
+    --primary: #644DAF;
+    --secondary: #B2A8D2;
+    --pink: #EF9C98;
+    /* --lightPink:  */
+    --purple: #B2A8D2;
+    --lightPurple: #E6E6FA;
+    --white: #FFFFFF;
+    --gray: #D8D8D8;
+    --gray2: #EBEBEB;
+    --gray3: 
+}
