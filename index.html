@@ -295,6 +295,7 @@
                         </div>
                         <div
                           class="advertising-right-item-right__barchart-col"
+                          data-height-type="even"
                         ></div>
                         <div
                           class="advertising-right-item-right__barchart-year"
@@ -310,11 +311,124 @@
                         </div>
                         <div
                           class="advertising-right-item-right__barchart-col"
+                          data-height-type="even"
                         ></div>
                         <div
                           class="advertising-right-item-right__barchart-year"
                         >
                           2017
+                        </div>
+                      </div>
+                      <div class="advertising-right-item-right__barchart-item">
+                        <div
+                          class="advertising-right-item-right__barchart-number"
+                        >
+                          120건
+                        </div>
+                        <div
+                          class="advertising-right-item-right__barchart-col"
+                          data-height-type="even"
+                        ></div>
+                        <div
+                          class="advertising-right-item-right__barchart-year"
+                        >
+                          2018
+                        </div>
+                      </div>
+                      <div class="advertising-right-item-right__barchart-item">
+                        <div
+                          class="advertising-right-item-right__barchart-number"
+                        >
+                          120건
+                        </div>
+                        <div
+                          class="advertising-right-item-right__barchart-col"
+                          data-height-type="even"
+                        ></div>
+                        <div
+                          class="advertising-right-item-right__barchart-year"
+                        >
+                          2019
+                        </div>
+                      </div>
+                      <div class="advertising-right-item-right__barchart-item">
+                        <div
+                          class="advertising-right-item-right__barchart-number"
+                        >
+                          120건
+                        </div>
+                        <div
+                          class="advertising-right-item-right__barchart-col"
+                          data-height-type="even"
+                        ></div>
+                        <div
+                          class="advertising-right-item-right__barchart-year"
+                        >
+                          2020
+                        </div>
+                      </div>
+                      <div class="advertising-right-item-right__barchart-item">
+                        <div
+                          class="advertising-right-item-right__barchart-number"
+                        >
+                          120건
+                        </div>
+                        <div
+                          class="advertising-right-item-right__barchart-col"
+                          data-height-type="even"
+                        ></div>
+                        <div
+                          class="advertising-right-item-right__barchart-year"
+                        >
+                          2021
+                        </div>
+                      </div>
+                      <div class="advertising-right-item-right__barchart-item">
+                        <div
+                          class="advertising-right-item-right__barchart-number"
+                        >
+                          120건
+                        </div>
+                        <div
+                          class="advertising-right-item-right__barchart-col"
+                          data-height-type="even"
+                        ></div>
+                        <div
+                          class="advertising-right-item-right__barchart-year"
+                        >
+                          2022
+                        </div>
+                      </div>
+                      <div class="advertising-right-item-right__barchart-item">
+                        <div
+                          class="advertising-right-item-right__barchart-number"
+                        >
+                          120건
+                        </div>
+                        <div
+                          class="advertising-right-item-right__barchart-col"
+                          data-height-type="even"
+                        ></div>
+                        <div
+                          class="advertising-right-item-right__barchart-year"
+                        >
+                          2023
+                        </div>
+                      </div>
+                      <div class="advertising-right-item-right__barchart-item">
+                        <div
+                          class="advertising-right-item-right__barchart-number"
+                        >
+                          120건
+                        </div>
+                        <div
+                          class="advertising-right-item-right__barchart-col"
+                          data-height-type="even"
+                        ></div>
+                        <div
+                          class="advertising-right-item-right__barchart-year"
+                        >
+                          2024
                         </div>
                       </div>
                     </div>
@@ -561,3 +675,15 @@
     </div>
   </body>
 </html>
+<script>
+  var barchartCol = document.querySelector(
+    ".advertising-right-item-right__barchart-col"
+  );
+  var heightType = barchartCol.getAttribute("data-height-type");
+
+  if (heightType === "even") {
+    barchartCol.style.height = "85px";
+  } else {
+    barchartCol.style.height = "55px";
+  }
+</script>
