@@ -5,14 +5,12 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins' , sans-serif;
+    background-color: var(--secondary);
+    background-image: url("./image/background-top.png");
     background-repeat: no-repeat;   
-    background-position: 40% ;
-}
-html, body {
-    width: 100%;
-    height: 100%;
-    background-attachment: fixed;
-    /* background-size: cover; */
+    background-position: 20% 40%;
+    /* background-size: cover;  */
+    
 }
 :root {
     --primary: #644DAF;
@@ -20,7 +18,6 @@ html, body {
     --purple: #E7E3FF;
     --lightPurple: #E6E6FA;
     --pink: #EF9C98;
-    --textPink: #F5B6B4;
     --white: #FFFFFF;
     --gray: #D8D8D8;
     --gray2: #EBEBEB;

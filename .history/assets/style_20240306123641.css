@@ -1,0 +1,44 @@
+.advertising {  
+    display: flex;
+    gap: 0% 5%;
+    
+}
+.main {
+    background-color: var(--secondary);
+    height: 100%;
+    background-size: cover;
+}
+.advertising-left {
+    width: 35%;
+    background-color: var(--primary);
+    border-top-right-radius: 200px 200px;
+    color: var(--white);
+}
+.advertising-left__title{
+    font-weight: bold;
+
+}
+.advertising-left__item-list{
+    display: flex;
+
+}
+.advertising-left__item--white{
+    display: flex;
+    width: 20%;
+    background-color: var(--white);
+}
+.advertising-left__item{
+
+}
+.advertising-left__item-title{
+    display: flex;
+}
+.advertising-left__item-desc{
+
+}
+.advertising-left__item-desc-text{
+
+}
+.advertising-left__item-desc-number{
+
+}

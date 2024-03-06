@@ -1,0 +1,10 @@
+.advertising {  
+    display: flex;
+    gap: 0% 3%;
+    background-color: var(--secondary);
+}
+.advertising-left {
+    width: 30%;
+    background-color: var(--primary);
+    border-top-right-radius: 50%;
+}

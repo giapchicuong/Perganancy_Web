@@ -1,6 +1,6 @@
 .advertising {  
     display: flex;
-    /* gap: 0% 5%; */
+    gap: 0% 5%;
     
 }
 .main {
@@ -125,16 +125,16 @@
     position: absolute;
 }
 .advertising-left__map-item-list-top {
-    top: 30%;
+    top: 38%;
     left: 10%;
 }
 .advertising-left__map-item-list-center{
-    gap: 185px;
-    top: 43%;
-    left: 16%;
+    gap: 165px;
+    top: 53%;
+    left: 15%;
 }
 .advertising-left__map-item-list-bottom{
-    top: 55%;
+    top: 68%;
     left: 26%;
 }
 .advertising-left__map-item {
@@ -159,95 +159,4 @@
 .advertising-left__map-item-desc{
     font-size: 8px;
     font-weight: 400;
-}
-.advertising-left__map-item-number, .advertising-left__box-title-text {
-    font-size: 16px;
-    font-weight: 600;       
-}
-/* ---------- */
-.advertising-left__box{
-    background-color: var(--white);
-    border-radius: 16px;
-    color: var(--primary);
-    padding: 16px;
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-}
-.advertising-left__box-title{
-    display: flex;
-    gap: 5px;
-    align-items:center;
-}
-.advertising-left__box--hr{
-    color: var(--primary);
-}
-.advertising-left__box-message-item {
-    display: flex;
-    gap: 12px;
-    font-size: 16px;
-    font-weight: 400;
-}
-.advertising-left__box-message-item-text, .advertising-right-item-top__desc{
-    font-size: 14px;
-    font-weight: 400;
-}
-
-/* -------advertising-right------------ */
-.advertising-right{
-    margin: 2% 5%;
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-}
-.advertising-right-item{
-    padding: 30px 36px;
-    background-color: var(--white);
-    border-radius: 24px;
-    border: 5px solid var(--primary);
-}
-.advertising-right-item-top{
-    display: flex;
-    gap: 24px;
-    justify-content: center;
-    align-items: center;
-    color: var(--white);
-}
-.advertising-right-item-top-left__messenger{
-    background-color: var(--primary);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 12px 24px;
-    border-radius: 100px;
-}
-.advertising-right-item-top-left, .advertising-right-item-top-right{
-    display: flex;
-    flex-direction: column;
-    gap: 22px;
-    justify-content: center;
-    align-items: center;
-    margin: 0px 61px;
-}
-.advertising-right-item-top-left__messenger--title{
-    font-size: 25px;
-    font-weight: 700;
-}
-.advertising-right-item-top__messenger--desc{
-
-}
-.advertising-right-item-top-item__text{
-    color: var(--primary);
-    font-size: 35px;
-    font-weight: 700;
-}
-.advertising-right-item-top-item__icon{
-    width: 44px;
-    height: 44px;
-}
-.advertising-right-item-top-item{
-    display: flex;
-    gap: 4px;
-    justify-content: center;
-    align-items: center;
 }

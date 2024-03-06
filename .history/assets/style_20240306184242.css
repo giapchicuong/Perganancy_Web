@@ -1,6 +1,6 @@
 .advertising {  
     display: flex;
-    /* gap: 0% 5%; */
+    gap: 0% 5%;
     
 }
 .main {
@@ -172,11 +172,11 @@
     padding: 16px;
     display: flex;
     flex-direction: column;
-    gap: 16px;
+    gap: 5px;
 }
 .advertising-left__box-title{
     display: flex;
-    gap: 5px;
+    gap: 2px;
     align-items:center;
 }
 .advertising-left__box--hr{
@@ -188,66 +188,7 @@
     font-size: 16px;
     font-weight: 400;
 }
-.advertising-left__box-message-item-text, .advertising-right-item-top__desc{
+.advertising-left__box-message-item-text{
     font-size: 14px;
     font-weight: 400;
-}
-
-/* -------advertising-right------------ */
-.advertising-right{
-    margin: 2% 5%;
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-}
-.advertising-right-item{
-    padding: 30px 36px;
-    background-color: var(--white);
-    border-radius: 24px;
-    border: 5px solid var(--primary);
-}
-.advertising-right-item-top{
-    display: flex;
-    gap: 24px;
-    justify-content: center;
-    align-items: center;
-    color: var(--white);
-}
-.advertising-right-item-top-left__messenger{
-    background-color: var(--primary);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 12px 24px;
-    border-radius: 100px;
-}
-.advertising-right-item-top-left, .advertising-right-item-top-right{
-    display: flex;
-    flex-direction: column;
-    gap: 22px;
-    justify-content: center;
-    align-items: center;
-    margin: 0px 61px;
-}
-.advertising-right-item-top-left__messenger--title{
-    font-size: 25px;
-    font-weight: 700;
-}
-.advertising-right-item-top__messenger--desc{
-
-}
-.advertising-right-item-top-item__text{
-    color: var(--primary);
-    font-size: 35px;
-    font-weight: 700;
-}
-.advertising-right-item-top-item__icon{
-    width: 44px;
-    height: 44px;
-}
-.advertising-right-item-top-item{
-    display: flex;
-    gap: 4px;
-    justify-content: center;
-    align-items: center;
 }

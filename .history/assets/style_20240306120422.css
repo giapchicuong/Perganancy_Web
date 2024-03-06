@@ -1,0 +1,8 @@
+.advertising {  
+    display: flex;
+    gap: 0% 3%;
+}
+.advertising-left {
+    width: 30%;
+    
+}

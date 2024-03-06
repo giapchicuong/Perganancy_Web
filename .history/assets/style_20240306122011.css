@@ -1,0 +1,15 @@
+.advertising {  
+    display: flex;
+    gap: 0% 5%;
+    
+}
+.main {
+    background-color: var(--secondary);
+    height: cover;
+}
+.advertising-left {
+    width: 35%;
+    background-color: var(--primary);
+    border-top-right-radius: 200px 200px;
+    color: var(--white);
+}

@@ -1,0 +1,99 @@
+.advertising {  
+    display: flex;
+    gap: 0% 5%;
+    
+}
+.main {
+    background-color: var(--secondary);
+    height: 100%;
+    background-size: cover;
+}
+.advertising-left {
+    width: 35%;
+    background-color: var(--primary);
+    border-top-right-radius: 200px 200px;
+    color: var(--white);
+}
+.advertising-left__title{
+    font-weight: bold;
+
+}
+.advertising-left__item-list{
+    display: flex;
+    width: 80%;
+}
+.advertising-left__item1{
+    display: flex;
+    flex-grow: 4;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    background-color: var(--white);
+    color: var(--primary)
+}
+.advertising-left__item2 {
+    display: flex;
+    flex-grow: 2;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    background-color: var(--gray);
+    color: var(--primary)
+}
+.advertising-left__item3 {
+    display: flex;
+    flex-grow: 2;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    background-color: var(--gray2);
+    color: var(--primary)
+}
+.advertising-left__item4 {
+    display: flex;
+    flex-grow: 2;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    background-color: var(--gray3);
+    color: var(--primary)
+}
+.advertising-left__item--signal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.advertising-left__item--white{
+    display: flex;
+    gap: 6px 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.advertising-left__item{
+
+}
+.advertising-left__item-title{
+    font-weight: bold;
+    font-size: 16px;
+}
+.advertising-left__item-desc{
+    display: flex;
+    gap: 12px;
+}
+.advertising-left__item-desc-text{
+
+}
+.advertising-left__item-desc-number{
+    font-size: 24px;
+    font-weight: bold;
+}
+.advertising-left__item-bottom{
+    display: flex;
+    gap: 12px;
+}

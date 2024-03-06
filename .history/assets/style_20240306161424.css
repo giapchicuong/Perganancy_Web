@@ -1,0 +1,117 @@
+.advertising {  
+    display: flex;
+    gap: 0% 5%;
+    
+}
+.main {
+    background-color: var(--secondary);
+    height: 100%;
+    background-size: cover;
+}
+.advertising-left {
+    width: 40%;
+    background-color: var(--primary);
+    border-top-right-radius: 200px 200px;
+    color: var(--white);
+    padding: 40px 70px;
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+}
+.advertising-left--top{
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+.advertising-left__title, .calculation{
+    font-size: 24px;
+    font-weight: 600;
+}
+.advertising-left__item-list{
+    display: flex;
+    width: 100%;
+}
+.advertising-left__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--primary);
+    padding: 18px;
+}
+.advertising-left__item1{
+    flex-grow: 2;
+    background-color: var(--white);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.advertising-left__item2, .advertising-left__item3, .advertising-left__item4 {
+    flex-grow: 1;
+}
+.advertising-left__item2 {
+    background-color: var(--gray3);
+}
+.advertising-left__item3 {
+    background-color: var(--gray2);
+}
+.advertising-left__item4 {
+    background-color: var(--gray);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.advertising-left__item--signal{
+    display: flex;
+    gap: 6px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.advertising-left__item--white{
+    display: flex;
+    gap: 6px 0px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.advertising-left__item-title{
+    font-weight: bold;
+    font-size: 16px;
+}
+.advertising-left__item-desc{
+    display: flex;
+    gap: 12px;
+}
+.advertising-left__item-desc-number{
+    font-size: 24px;
+    font-weight: bold;
+}
+.advertising-left__item-bottom{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.calculation{
+}
+
+
+/* text */
+.advertising-left__title--text{
+    text-align: right;
+}
+.advertising-left__desc{
+    color: var(--textPink);
+    padding-top: 3px;
+}
+
+/* center image */
+.advertising-left__map{
+
+}
+.advertising-left__map-image{
+
+}
+.advertising-left__map-item-list-top{
+
+}
+.advertising-left__map-item {
+    
+}

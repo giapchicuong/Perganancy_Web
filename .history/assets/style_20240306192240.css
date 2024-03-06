@@ -217,17 +217,10 @@
     background-color: var(--primary);
     display: flex;
     flex-direction: column;
+    gap: 22px;
     align-items: center;
     padding: 12px 24px;
     border-radius: 100px;
-}
-.advertising-right-item-top-left, .advertising-right-item-top-right{
-    display: flex;
-    flex-direction: column;
-    gap: 22px;
-    justify-content: center;
-    align-items: center;
-    margin: 0px 61px;
 }
 .advertising-right-item-top-left__messenger--title{
     font-size: 25px;
