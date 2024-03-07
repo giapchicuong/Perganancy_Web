@@ -273,9 +273,7 @@
     border-radius: 10px;
 }
 
-.advertising-right-item--top-header{
-    display: flex;
-    justify-content: space-between;
+.advertising-right-item__header{
+    justify-content: center;
     align-items: center;
-    align-self: stretch;
 }

@@ -264,7 +264,6 @@
 .advertising-right-item--top-header, .advertising-right-item__header{
     display: flex;
     gap: 4px;
-    align-items:center;
 }
 .circle {
     height: 16px;
@@ -273,9 +272,7 @@
     border-radius: 10px;
 }
 
-.advertising-right-item--top-header{
+.advertising-right-item__header{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    align-self: stretch;
+    g
 }

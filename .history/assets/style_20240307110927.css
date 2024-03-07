@@ -194,9 +194,8 @@
 }
 
 /* -------advertising-right------------ */
-/* item 1 */
 .advertising-right{
-    margin: 2% 3%;
+    /* margin: 2% 5%; */
     display: flex;
     flex-direction: column;
     gap: 15px;
@@ -206,7 +205,6 @@
     background-color: var(--white);
     border-radius: 24px;
     border: 5px solid var(--primary);
-    display: flex;
 }
 .advertising-right-item-top{
     display: flex;
@@ -218,30 +216,29 @@
 .advertising-right-item-top-left__messenger{
     background-color: var(--primary);
     display: flex;
-    gap: 3px;
     flex-direction: column;
     align-items: center;
     padding: 12px 24px;
     border-radius: 100px;
 }
-.advertising-right-item-top-left, .advertising-right-item-top-right,.advertising-right-item-left--cause{
+.advertising-right-item-top-left, .advertising-right-item-top-right{
     display: flex;
     flex-direction: column;
     gap: 22px;
     justify-content: center;
     align-items: center;
-    margin: 0px 44px;
+    margin: 0px 61px;
 }
-.advertising-right-item-top-left__messenger--title, .advertising-right-item-left__title, .advertising-right-item-top__title, .advertising-right-item__header-left--title{
+.advertising-right-item-top-left__messenger--title{
     font-size: 25px;
     font-weight: 700;
 }
 .advertising-right-item-top__messenger--desc{
 
 }
-.advertising-right-item-top-item__text, .advertising-right-item-number{
+.advertising-right-item-top-item__text{
     color: var(--primary);
-    font-size: 50px;
+    font-size: 35px;
     font-weight: 700;
 }
 .advertising-right-item-top-item__icon{
@@ -253,29 +250,4 @@
     gap: 4px;
     justify-content: center;
     align-items: center;
-}
-
-/* item 2 */
-.advertising-right-item-left--cause, .advertising-right-item--near-end{
-    color: var(--primary);
-}
-
-/* item 3 */
-.advertising-right-item--top-header, .advertising-right-item__header{
-    display: flex;
-    gap: 4px;
-    align-items:center;
-}
-.circle {
-    height: 16px;
-    width: 16px;
-    background: var(--textPink);
-    border-radius: 10px;
-}
-
-.advertising-right-item--top-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    align-self: stretch;
 }
